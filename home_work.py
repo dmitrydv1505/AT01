@@ -1,12 +1,12 @@
 def calculate_remainder(dividend, divisor):
 
-    # Вычисляет остаток от деления dividend на divisor.
+    """ Вычисляет остаток от деления dividend на divisor.
 
-    :param dividend: 5 #Делимое
-    :param divisor: 6 #Делитель
+    :param dividend: Делимое
+    :param divisor: Делитель
     :return: Остаток от деления
     :raises ZeroDivisionError: Если divisor равен нулю
-
+"""
     if divisor == 0:
         raise ZeroDivisionError("Деление на ноль невозможно.")
     return dividend % divisor
